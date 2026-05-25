@@ -113,8 +113,7 @@ ul {
     box-sizing: border-box;
     flex-direction: column;
     justify-content: center;
-    padding-right: 150px;
-    padding-left:150px;
+    padding: 0px 450px;
 }
 
 .quote-text {
@@ -128,11 +127,21 @@ ul {
     text-align:end;
 }
 
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 55px;
+}
 .action-container {
     height:75px;
+    width: 1050px;
     border-radius: 5px;
     background-color: #3882F6;
     box-sizing: border-box;
-    margin: 64px 100px;
     border: solid 0.5px;
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+    align-items: center;
 }
