@@ -50,7 +50,8 @@ ul {
     width: 100px;
     height: 25px;
     border-radius: 7px;
-    color: white
+    color: white;
+        border-style: solid;
 }
 
 .img-placeholder {
@@ -134,7 +135,7 @@ ul {
     padding: 55px;
 }
 .action-container {
-    height:75px;
+    height:100px;
     width: 1050px;
     border-radius: 5px;
     background-color: #3882F6;
@@ -144,4 +145,19 @@ ul {
     padding: 15px;
     justify-content: space-around;
     align-items: center;
+}
+
+.action-text {
+    color: white;
+}
+
+.bottom-button {
+    box-sizing: border-box;
+    height: 35px;
+    width: 75px;
+    border-color: white;
+    border-style: solid;
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: white;
 }
