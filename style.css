@@ -2,6 +2,12 @@
     font-family: Roboto;
 }
 
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .header-hero{
     background-color: #1f2937;
     color:white;
@@ -160,4 +166,14 @@ ul {
     background-color: #3882F6;
     border-radius: 5px;
     color: white;
+}
+
+.footer{
+    background-color: #1f2937;
+    color:white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
 }
