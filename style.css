@@ -13,14 +13,12 @@ body{
     color:white;
     padding:0px 64px 45px;
     justify-content: center;
-    border: solid 5px red;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: solid 0.1px lightsteelblue;
     
 }
 p,h1 {
@@ -38,7 +36,6 @@ ul {
 .hero {
     display: flex;
     margin-top: 75px;
-    border: solid 0.1px lightsteelblue;
     box-sizing: border-box;
     height: 175px;
 }
